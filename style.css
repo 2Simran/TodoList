@@ -1,0 +1,63 @@
+/* @import url(font url) */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #786fa6;
+}
+
+.box{
+    width: 600px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#item{
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    border: 0;
+    display:block;
+    box-shadow: 0px 0px 2px rgb(80, 79, 79);
+}
+
+#to-do-box {
+    margin-top: 10px;
+    list-style: none;
+}
+
+#to-do-box li{
+    background-color: #7c70ba;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 2px;
+    position: relative;
+    padding-right: 30px;
+    text-align: justify;
+    margin-top: 5px;
+    user-select: none;
+}
+
+#to-do-box li i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.done{
+    text-decoration: line-through;
+    color:blue;
+    background-color: #837ca8 !important;
+}
